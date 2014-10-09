@@ -1,0 +1,44 @@
+/**
+ *
+ *
+ *
+ */
+.btn-file {
+  position:relative;
+  overflow:hidden;
+}
+
+*[type=file] {
+position: absolute;
+top: 0;
+right: 0;
+min-width: 100%;
+min-height: 100%;
+font-size: 999px;
+text-align: right;
+filter: alpha(opacity=0);
+opacity: 0;
+outline: none;
+background: white;
+cursor: inherit;
+display: block;
+}
+
+#images_preview > .fileInput_preview_item {
+  height: 130px !important;
+}
+
+#video_preview > .fileInput_preview_item {
+  height: 200px !important;
+}
+
+.fileInput_preview_image,
+.fileInput_preview_video {
+  max-height: 100%;
+  max-width:100%;
+}
+
+.fileInput_preview_remove {
+  position: absolute;
+  right: 5px;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<title>jquery.fileInput - Example</title>
+
+<link rel="stylesheet" type="text/css" href="src/jquery.fileInput.css" />
+<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css" />
+<script type="text/javascript" src="lib/jquery.min.js"></script>
+<script type="text/javascript" src="src/jquery.fileInput.js"></script>
+
+<div class="container">
+<form role="form"  method="POST" enctype="multipart/form-data" action="https://192.168.122.164/">
+  <div class="row">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Images (multiple)</label>
+      <span class="btn btn-default btn-file">
+        Add <input type="file" multiple="multiple" accept="image/*" id="images" class="form-control">
+      </span>
+    </div>
+    <div id="images_preview"></div>
+  </div>
+  <div class="row">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Video (only one)</label>  
+      <span class="btn btn-default btn-file">
+        Browse <input type="file" accept="video/*" id="video" name="video" class="form-control">
+      </span>
+    </div>
+    <div class="row" id="video_preview"></div>
+  </div>
+  <div class="row">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Audio (multiple)</label>  
+      <span class="btn btn-default btn-file">
+        Add <input type="file" accept="audio/*" id="audio" class="form-control">
+      </span>
+    </div>
+    <div class="row" id="audio_preview"></div>
+  </div>
+  <input type="submit" value="send" />
+</form>
+</div>
+
+<script type="text/javascript">
+  $('input#images').fileInput({
+    preview: $('#images_preview'),
+  });
+  $('input#video').fileInput({
+    preview: $('#video_preview'),
+  });
+  $('input#audio').fileInput({
+    preview: $('#audio_preview'),
+  });
+</script>
