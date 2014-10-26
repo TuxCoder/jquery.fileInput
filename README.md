@@ -60,19 +60,20 @@ settings object
 
 * preview_template_image:
   template for image preview
-  default: '<div class="col-md-2 col-sm-3 col-xs-4 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><img class="fileInput_preview_img" alt="" src="" /></div>'
+
+  default: `<div class="col-md-2 col-sm-3 col-xs-4 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><img class="fileInput_preview_img" alt="" src="" /></div>`
 
 * preview_template_video
   template for video preview
 
-  default:  '<div class="col-md-4 col-sm-6 col-xs-12 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><video controls="controls" class="fileInput_preview_video" alt="" src="" /></div>'
+  default:  `<div class="col-md-4 col-sm-6 col-xs-12 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><video controls="controls" class="fileInput_preview_video" alt="" src="" /></div>`
 
 * preview_template_audio
   template for audio preview
 
-  default: '<div class="col-md-4 col-sm-6 col-xs-12 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><audio controls="controls" class="fileInput_preview_audio" alt="" src="" /></div>'
+  default: `<div class="col-md-4 col-sm-6 col-xs-12 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><audio controls="controls" class="fileInput_preview_audio" alt="" src="" /></div>`
 
 * preview_template_default
   template for all other file types
 
-  default: '<div class="col-md-2 col-sm-3 col-xs-4 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><span class="fileInput_preview_filename"></span></div>'
+  default: `<div class="col-md-2 col-sm-3 col-xs-4 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><span class="fileInput_preview_filename"></span></div>`
