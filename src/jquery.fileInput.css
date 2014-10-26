@@ -38,6 +38,10 @@ display: block;
   max-width:100%;
 }
 
+.fileInput_preview_item {
+  text-align: center;
+}
+
 .fileInput_preview_remove {
   position: absolute;
   right: 5px;

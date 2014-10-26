@@ -50,7 +50,8 @@ input tags
     video/*
     audio/*
 
-settings: object with this keys
+settings object
+---------------
 
 * preview:
   set a dom element for file preview
@@ -59,7 +60,6 @@ settings: object with this keys
 
 * preview_template_image:
   template for image preview
-
   default: '<div class="col-md-2 col-sm-3 col-xs-4 img-thumbnail fileInput_preview_item"><div class="fileInput_preview_remove"><span class="glyphicon glyphicon-remove"></span></div><img class="fileInput_preview_img" alt="" src="" /></div>'
 
 * preview_template_video
